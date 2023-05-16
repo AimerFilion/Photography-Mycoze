@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "General Sans", sans-serif;
+}
+
+.wrapper-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-gap: 40px;
+  justify-items: center;
+  align-items: center;
+  border: solid red 2px;
+}
+
+.wrapper-gallery .gallery-img {
+  border: solid blue 2px;
+}
+
+/* .gallery-img.img4 {
+  grid-column-start: 2;
+  grid-column-end: -1;
+} */
+/* .gallery-img .img0 {
+  grid-area: img0;
+  background-image: url("./img/Gallery/img0.jpg");
+  background-color: transparent;
+}
+.gallery-img .img1 {
+  grid-area: img1;
+  background-image: url("./img/Gallery/img1.jpg");
+  width: 2rem;
+  height: 2rem;
+}
+.gallery-img .img2 {
+  grid-area: img2;
+  background-image: url("./img/Gallery/img2.jpg");
+}
+.gallery-img .img3 {
+  grid-area: img3;
+  background-image: url("./img/Gallery/.img3.jpg");
+}
+.gallery-img .img4 {
+  grid-area: img4;
+  background-image: url("./img/Gallery/img4.jpg");
+}
+.gallery-img .img5 {
+  grid-area: img5;
+  background-image: url("../img/Gallery/img5.jpg");
+}
+.gallery-img .img6 {
+  grid-area: img6;
+  background-image: url("./img/Gallery/img6.jpg");
+}
+.gallery-img .img7 {
+  grid-area: img7;
+  background-image: url("./img/Gallery/img7.jpg");
+}
+.gallery-img .img8 {
+  grid-area: img8;
+  background-image: url("./img/Gallery/img8.jpg");
+}
+.gallery-img .img9 {
+  grid-area: img9;
+  background-image: url("./img/Gallery/img9.jpg");
+}
+.gallery-img .img10 {
+  grid-area: img10;
+  background-image: url("./img/Gallery/img10.jpg");
+}
+.gallery-img .img11 {
+  grid-area: img11;
+  background-image: url("./img/Gallery/img11.jpg");
+}
+.gallery-img .img12 {
+  grid-area: img12;
+  background-image: url("./img/Gallery/img12.jpg");
+}
+.gallery-img .img13 {
+  grid-area: img13;
+  background-image: url("./img/Gallery/img13.jpg");
+}
+.gallery-img .img14 {
+  grid-area: img14;
+  background-image: url("./img/Gallery/img14.jpg");
+}
+.gallery-img .img15 {
+  grid-area: img15;
+  background-image: url("./img/Gallery/img15.jpg");
+}
+.gallery-img .img16 {
+  grid-area: img16;
+  background-image: url("./img/Gallery/img16.jpg");
+}
+.gallery-img .img17 {
+  grid-area: img17;
+  background-image: url("./img/Gallery/img17.jpg");
+}
+.gallery-img .img18 {
+  grid-area: img18;
+  background-image: url("./img/Gallery/img18.jpg");
+}
+.gallery-img .img19 {
+  grid-area: img19;
+  background-image: url("./img/Gallery/img19.jpg");
+} */

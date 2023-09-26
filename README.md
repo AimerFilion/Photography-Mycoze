@@ -1,1 +1,2 @@
-# Photography-Mycoze
+# Photography portfolio 
+## Ongoing Work
